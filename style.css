@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: bold;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  position: fixed;
+}
+
+.nav-list {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.logo img {
+  height: 70px;
+  margin: 20px;
+}
+
+.nav-list ul {
+  display: flex;
+  flex-flow: wrap row;
+  list-style: none;
+}
+
+.nav-choice {
+  margin-right: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav-choice a {
+  text-decoration: none;
+  color: #9ab3f5;
+  line-height: 100px;
+  cursor: pointer;
+}
+
+.nav-choice a:hover {
+  color: #7579e7;
+}
+
+header {
+  padding-top: 100px;
+}
+
+.wrapper div {
+  height: fit-content;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  background: #a3d8f4;
+
+}
+
+.teams {
+  width: 150px;
+  background-color: white;
+  margin: 15px;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+}
+
+.teams:hover {
+  color: #7579e7;
+}
+
+
+header img {
+  width: 90%;
+  margin: auto;
+}
+
+header h2 {
+  margin-bottom: 20px;
+  font-size: 90%;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+
+.fixtures {
+  background-color: white;
+}
+
+
+.container-fix{
+
+    width: 94%;
+    height: 90vh;
+    align-items: center;
+    padding: 1%;
+
+}
+ .qualifier{
+    width: 25%;
+    height: 70vh;
+    padding: 1%;
+    margin: 1%;
+    border: 2px solid rgb(247, 245, 245);
+    border-radius: 5px;
+
+}
+.semiFinal{
+    width: 25%;
+    height: 35vh;
+    padding: 1%;
+    margin: 1%;
+    border: 2px solid rgb(248, 245, 245);
+    border-radius: 5px;
+}
+
+.final{
+    width: 25%;
+    height: 17vh;
+    padding: 1%;
+    margin: 1%;
+    border: 2px solid rgb(248, 250, 249);
+    border-radius: 5px;
+}
+.set{
+    width: 95%;
+    height: 15vh;
+    padding: 1%;
+    margin: 1%;
+    border: 1.5px solid orangered;
+    border-radius: 5px;
+
+}
+.card1{
+    width: 40%;
+    height: 13vh;
+    padding: 1%;
+    margin: 1%;
+    background-color: white;
+}
+h3{
+    margin: 5vh auto auto auto;
+    border: 1px solid orangered;
+    border-radius: 70px;
+    background-color: orangered;
+    color: white;
+   box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+#result{
+  border:none;
+  background-color: rgb(7, 131, 13);
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.fixtures img {
+  width: 13vh;
+  margin-left: 20px;
+  line-height: inherit;
+}
+
+.game {
+  background-color: #7579e7;
+	display: flex;
+	justify-content: center;
+	height: 75vh;
+}
+
+.container {
+	background: white;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	width: 700px;
+	padding: 50px;
+	align-self: center;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+
+.col {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.container > .row {
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+.profile-icon {
+    border-radius: 50%;
+    border: 2px solid bisque;
+}
+
+.name {
+	margin: 20px 0;
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.score {
+	margin: -80px 0 0;
+	font-size: xx-large;
+}
+.score > span {
+	margin: 0 5px;
+}
+.round-runs {
+	font-size: xx-large;
+	width: 200px;
+	justify-content: space-evenly;
+}
+
+#strike-button {
+	border: none;
+	border-radius: 25px;
+	background: linear-gradient(135deg, #c02425, #f0cb35);
+	font-size: large;
+	width: 300px;
+	color: white;
+	padding: 10px;
+	margin-top: 50px;
+	margin-bottom: -50px;
+	outline: none;
+}
+
+
+#strike-button:hover {
+	box-shadow: 0 0 10px 0 black;
+}
+
+#result {
+	margin-top: 50px;
+	background: linear-gradient(90deg, #f79d00, #64f38c);
+	background-clip: text;
+	text-transform: uppercase;
+	font-size: xx-large;
+	font-weight: bold;
+	color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+footer {
+  background-color: #9ab3f5;
+  width: 100%;
+  height: 100px;
+}
+
+footer h6 {
+  color: white;
+  line-height: 100px;
+  font-size: 30px;
+  text-align: center;
+}

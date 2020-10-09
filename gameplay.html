@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Super Over!</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+          <div class="col">
+              <img
+                  src="../images/RCB.png"
+                  alt=""
+                  class="profile-icon"
+                  height="150px"
+                  width="150px"
+              />
+              <span class="name" id="team-1-name">RCB</span>
+              <div class="row round-runs" id="team-1-round-runs">
+                  <span class="col">-</span>
+                  <span class="col">-</span>
+                  <span class="col">-</span>
+                  <span class="col">-</span>
+                  <span class="col">-</span>
+                  <span class="col">-</span>
+              </div>
+          </div>
+          <div class="col">
+              <div class="row score">
+                  <span id="team-1-score"></span>
+                  <span>-</span>
+                  <span id="team-2-score"></span>
+              </div>
+          </div>
+          <div class="col">
+              <img
+                  src="../images/CSK.png"
+                  alt=""
+                  class="profile-icon"
+                  height="150px"
+                  width="150px"
+              />
+              <span class="name" id="team-2-name">CSK</span>
+              <div class="row round-runs" id="team-2-round-runs">
+                  <span class="col">-</span>
+                  <span class="col">-</span>
+                  <span class="col">-</span>
+                  <span class="col">-</span>
+                  <span class="col">-</span>
+                  <span class="col">-</span>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <button
+              id="strike-button"
+              onclick="handleStrikeButtonClick()"
+          ></button>
+      </div>
+      <div class="row" id="result" hidden></div>
+  </div>
+  </body>
+</html>

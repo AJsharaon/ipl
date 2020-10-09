@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>BootCamp Project 1</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="nav-list">
+        <li class="logo"><img src="../images/IPL.png" alt="Logo"></li>
+        <li>
+          <ul>
+            <li class="nav-choice"><a href="#teams">TEAMS</a></li>
+            <li class="nav-choice"><a href="#fixtures">FIXTURES</a></li>
+            <li class="nav-choice"><a href="gameplay.html">GAMEPLAY</a></li>
+            <li class="nav-choice"><a href="https://www.iplt20.com/points-table/2020">POINTS TABLE</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <header class="wrapper" id="teams">
+      <div>
+        <article class="teams">
+          <img src="../images/CSK.png" alt="CSK">
+          <h2>Chennai Super Kings</h2>
+        </article>
+
+        <article class="teams">
+          <img src="../images/RCB.png" alt="RCB">
+          <h2>Royal Challengers Bangalore</h2>
+        </article>
+
+        <article class="teams">
+          <img src="../images/MI.png" alt="MI">
+          <h2>Mumbai Indians</h2>
+        </article>
+
+        <article class="teams">
+          <img src="../images/KXIP.png" alt="KXIP">
+          <h2>Kings XI Punjab</h2>
+        </article>
+
+        <article class="teams">
+          <img src="../images/DC.png" alt="DC">
+          <h2>Delhi Capitals</h2>
+        </article>
+
+        <article class="teams">
+          <img src="../images/RR.png" alt="RR">
+          <h2>Rajasthan Royals</h2>
+        </article>
+
+        <article class="teams">
+          <img src="../images/KKR.png" alt="KKR">
+          <h2>Kolkata Knight Riders</h2>
+        </article>
+
+        <article class="teams">
+          <img src="../images/SRH.png" alt="SRH">
+          <h2>Sunrisers Hyderabad</h2>
+        </article>
+      </div>
+    </header>
+
+
+    <section class="fixtures" id="fixtures">
+
+            <div class="flex container-fix">
+                <a name="schedule"></a>
+                <div class="flex qualifier">
+                    <div class="flex set">
+                        <div class="card1">
+                            <img src="../images/CSK.png" alt="CSK">
+                        </div>
+                        <h3>VS</h3>
+                        <div class="card1 ">
+                            <img src="../images/KKR.png" alt="KKR">
+                        </div>
+                    </div>
+                    <div class="flex set">
+                        <div class="card1">
+                            <img src="../images/MI.png" alt="MI">
+                        </div>
+                        <h3>VS</h3>
+                        <div class="card1 ">
+                            <img src="../images/SRH.png" alt="SRH">
+                        </div>
+                    </div>
+                    <div class="flex set">
+                        <div class="card1">
+                            <img src="../images/RCB.png" alt="RCB">
+                        </div>
+                        <h3>VS</h3>
+                        <div class="card1 ">
+                            <img src="../images/DC.png" alt="DC">
+                        </div>
+                    </div>
+                    <div class="flex set">
+                        <div class="card1">
+                            <img src="../images/KXIP.png" alt="KXIP">
+                        </div>
+                        <h3>VS</h3>
+                        <div class="card1 ">
+                            <img src="../images/RR.png" alt="RR">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex semiFinal">
+                    <div class="flex set">
+                        <div class="card1">
+                            <img src="../images/CSK.png" alt="CSK">
+                        </div>
+                        <h3>VS</h3>
+                        <div class="card1">
+                            <img src="../images/MI.png" alt="MI">
+                        </div>
+                    </div>
+                    <div class="flex set">
+                        <div class="card1">
+                            <img src="../images/RCB.png" alt="RCB">
+                        </div>
+                        <h3>VS</h3>
+                        <div class="card1">
+                            <img src="../images/KXIP.png" alt="KXI">
+                        </div>
+                    </div>
+               </div>
+                <div class="flex final">
+                    <div class="flex set">
+                        <div class="card1">
+                            <img src="../images/CSK.png" alt="CSK">
+                        </div>
+                        <h3>VS</h3>
+                        <div class="card1">
+                            <img src="../images/RCB.png" alt="RCB">
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </section>
+
+    <section class="game"id="gameplay">
+      <div class="container">
+        <div class="row">
+            <div class="col">
+                <img
+                    src="../images/RCB.png"
+                    alt="RCB"
+                    class="profile-icon"
+                    height="150px"
+                    width="150px"
+                />
+                <span class="name" id="team-1-name">RCB</span>
+                <div class="row round-runs" id="team-1-round-runs">
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row score">
+                    <span id="team-1-score"></span>
+                    <span>-</span>
+                    <span id="team-2-score"></span>
+                </div>
+            </div>
+            <div class="col">
+                <img
+                    src="../images/CSK.png"
+                    alt="CSK"
+                    class="profile-icon"
+                    height="150px"
+                    width="150px"
+                />
+                <span class="name" id="team-2-name">CSK</span>
+                <div class="row round-runs" id="team-2-round-runs">
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <button
+                id="strike-button"
+                onclick="handleStrikeButtonClick()"
+            >STRIKE</button>
+        </div>
+        <div class="row" id="result" hidden></div>
+    </div>
+    </section>
+    <footer>
+      <h6>Thank You for visiting!</h6>
+    </footer>
+  </body>
+</html>
