@@ -144,6 +144,7 @@ header h2 {
     margin: 1%;
     background-color: white;
 }
+
 h3{
     margin: 5vh auto auto auto;
     border: 1px solid orangered;
@@ -152,10 +153,7 @@ h3{
     color: white;
    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
 }
-#result{
-  border:none;
-  background-color: rgb(7, 131, 13);
-}
+
 
 .flex{
     display: flex;
